@@ -9,6 +9,8 @@ jobs:
         with:
           python-version: '3.8.x'
       - name: poetry-install
-        run: pip install poetry | make install
+        run: pip install poetry
+      - name: make install
+        run: make install
       - name: linter-check
         run: make lint
