@@ -1,8 +1,0 @@
-name: build-check
-on: push
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: linter-check
-        run: make lint

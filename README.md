@@ -3,4 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-![example workflow](https://github.com/ruffury/python-project-lvl1/actions/workflows/linter-check/badge.svg)
+![example workflow](https://github.com/ruffury/python-project-lvl1/actions/workflows/build-check.yml/badge.svg)
