@@ -3,7 +3,7 @@ from brain_games.cli import (welcome_user, ask_user, get_answer_from_user,
                              compare_answer, congratulate_user, GAME_TRIES)
 import random
 
-operators = ('+', '-', '*')
+OPERATORS = ('+', '-', '*')
 
 
 def get_expression_answer(expression):
@@ -23,7 +23,7 @@ def main():
     for i in range(GAME_TRIES):
         # generate expression and calculate answer of it
         expression = f'{str(random.randint(0, 100))} ' \
-                     f'{random.choice(operators)} ' \
+                     f'{random.choice(OPERATORS)} ' \
                      f'{str(random.randint(0, 100))}'
         expression_answer = str(get_expression_answer(expression))
 

@@ -1,3 +1,7 @@
+# Brain games
+
+Simple games in terminal.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ruffury/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ruffury/python-project-lvl1/actions)
 
