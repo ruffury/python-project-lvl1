@@ -25,13 +25,14 @@ def main():
     username = welcome_user()
     game_lost = False
     for i in range(GAME_TRIES):
-        # generate expression and calculate answer of it
+        # generate two numbers and find gcd of it
         expression = f'{str(random.randint(0, 100))} ' \
                      f'{str(random.randint(0, 100))}'
         expression_answer = str(get_expression_answer(expression))
 
-        # ask user to solve the expression and get answer from him
-        ask_user('What is the result of the expression?', expression)
+        # ask user to find gcd of two numbers
+        ask_user('Find the greatest common '
+                 'divisor of given numbers.', expression)
         user_answer = get_answer_from_user()
 
         # compare answer to real one

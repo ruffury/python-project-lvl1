@@ -13,3 +13,6 @@
 
 ### Game-gcd
 [![asciicast](https://asciinema.org/a/uYQmONVp5B6yOkmcemLidPXgj.svg)](https://asciinema.org/a/uYQmONVp5B6yOkmcemLidPXgj)
+
+### Game-progression
+[![asciicast](https://asciinema.org/a/K1RqAhRx0eBckRprcnVRRn2AE.svg)](https://asciinema.org/a/K1RqAhRx0eBckRprcnVRRn2AE)
