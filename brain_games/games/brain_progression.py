@@ -16,7 +16,7 @@ def hide_element_in_progression(progression, answer):
     progression_str = [str(i) for i in progression]
     answer_index = progression_str.index(answer)
 
-    return progression_str[:answer_index] + ['..'] + progression_str[answer_index + 1:]
+    return ' '.join(progression_str[:answer_index] + ['..'] + progression_str[answer_index + 1:])
 
 
 def main():
