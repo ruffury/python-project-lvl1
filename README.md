@@ -5,4 +5,11 @@
 
 ![example workflow](https://github.com/ruffury/python-project-lvl1/actions/workflows/build-check.yml/badge.svg)
 
-<script id="asciicast-sE6uh5tKeaEjXiMp0SkeINHLL" src="https://asciinema.org/a/sE6uh5tKeaEjXiMp0SkeINHLL.js" async></script>
+### Game-even
+[![asciicast](https://asciinema.org/a/sE6uh5tKeaEjXiMp0SkeINHLL.svg)](https://asciinema.org/a/sE6uh5tKeaEjXiMp0SkeINHLL)
+
+### Game-calc
+[![asciicast](https://asciinema.org/a/W8yrSkD2GIWmi915vlsQlGHos.svg)](https://asciinema.org/a/W8yrSkD2GIWmi915vlsQlGHos)
+
+### Game-gcd
+[![asciicast](https://asciinema.org/a/uYQmONVp5B6yOkmcemLidPXgj.svg)](https://asciinema.org/a/uYQmONVp5B6yOkmcemLidPXgj)
