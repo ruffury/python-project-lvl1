@@ -14,7 +14,9 @@ def generate_progression():
 
 def hide_element_in_progression(progression, answer):
     progression_str = [str(i) for i in progression]
-    return ' '.join(progression_str).replace(answer, '..')
+    answer_index = progression_str.index(answer)
+
+    return progression_str[:answer_index] + ['..'] + progression_str[answer_index + 1:]
 
 
 def main():
