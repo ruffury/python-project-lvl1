@@ -1,8 +1,5 @@
 name: rename_file
-on:
-  push:
-    branches:
-      - test_renaming
+on: push
 jobs:
   rename_job:
     runs-on: ubuntu-latest
